@@ -1,10 +1,8 @@
 ﻿@page "/counter"
 
-<h1>Counter</h1>
+<h1 class="text-2xl">MAUI + Blazor + Tailwind + DaisyUI</h1>
 
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="IncrementCount">Current count: @currentCount</button>
 
 @code {
     private int currentCount = 0;
